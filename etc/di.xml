@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../../../lib/internal/Magento/Framework/ObjectManager/etc/config.xsd">
+    <preference for="Magento\CatalogUrlRewrite\Model\Product\AnchorUrlRewriteGenerator" type="HumanElement\UrlkeyRewrite\Model\Product\AnchorUrlRewriteGenerator" />
+    <preference for="Magento\CatalogUrlRewrite\Model\ProductUrlRewriteGenerator" type="HumanElement\UrlkeyRewrite\Model\ProductUrlRewriteGenerator" />
+</config>
