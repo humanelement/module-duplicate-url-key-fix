@@ -3,7 +3,7 @@
     "description": "Fixes core bug where products cannot be saved that have a duplicate URL key.",
     "type": "magento2-module",
     "version": "2.0.0",
-    "license": ["Commercial"],
+    "license": ["GPL-3.0"],
     "authors": [
         {
             "email": "pbriscoe@human-element.com",
