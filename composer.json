@@ -1,5 +1,5 @@
 {
-    "name": "he/module-duplicate-urlkey-fix",
+    "name": "human-element/module-duplicate-url-key-fix",
     "description": "Fixes core bug where products cannot be saved that have a duplicate URL key.",
     "type": "magento2-module",
     "version": "2.0.0",
@@ -18,7 +18,7 @@
             "registration.php"
         ],
         "psr-4": {
-            "HumanElement\\UrlkeyRewrite\\": ""
+            "HumanElement\\DuplicateUrlKeyFix\\": ""
         }
     }
 }

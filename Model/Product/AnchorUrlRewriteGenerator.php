@@ -1,23 +1,23 @@
 <?php
 /**
- * Copyright © 2015 Magento. All rights reserved.
- * See COPYING.txt for license details.
+ * Human Element Inc.
+ *
+ * @package HumanElement_DuplicateUrlKeyFix
+ * @copyright Copyright (c) 2017 Human Element Inc. (https://www.human-element.com)
  */
-namespace HumanElement\UrlkeyRewrite\Model\Product;
+
+namespace HumanElement\DuplicateUrlKeyFix\Model\Product;
 
 use Magento\Catalog\Api\CategoryRepositoryInterface;
 use Magento\Catalog\Model\Product;
 use Magento\CatalogUrlRewrite\Model\ObjectRegistry;
 use Magento\CatalogUrlRewrite\Model\ProductUrlPathGenerator;
 use Magento\CatalogUrlRewrite\Model\ProductUrlRewriteGenerator;
-use Magento\Framework\Exception\NoSuchEntityException;
 use Magento\UrlRewrite\Service\V1\Data\UrlRewrite;
 use Magento\UrlRewrite\Service\V1\Data\UrlRewriteFactory;
 
-
 class AnchorUrlRewriteGenerator extends \Magento\CatalogUrlRewrite\Model\Product\AnchorUrlRewriteGenerator
 {
-
     /** @var ProductUrlPathGenerator */
     protected $urlPathGenerator;
 

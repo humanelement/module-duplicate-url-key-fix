@@ -1,22 +1,17 @@
 <?php
 /**
- * Copyright © 2015 Magento. All rights reserved.
- * See COPYING.txt for license details.
+ * Human Element Inc.
+ *
+ * @package HumanElement_DuplicateUrlKeyFix
+ * @copyright Copyright (c) 2017 Human Element Inc. (https://www.human-element.com)
  */
-namespace HumanElement\UrlkeyRewrite\Model;
+
+namespace HumanElement\DuplicateUrlKeyFix\Model;
 
 use Magento\Catalog\Model\Product;
-use Magento\CatalogUrlRewrite\Model\Product\CanonicalUrlRewriteGenerator;
-use Magento\CatalogUrlRewrite\Model\Product\CategoriesUrlRewriteGenerator;
-use Magento\CatalogUrlRewrite\Model\Product\CurrentUrlRewritesRegenerator;
-use Magento\CatalogUrlRewrite\Model\Product\AnchorUrlRewriteGenerator;
-use Magento\CatalogUrlRewrite\Service\V1\StoreViewService;
-use Magento\Store\Model\Store;
-use Magento\Catalog\Model\Product\Visibility;
 
 class ProductUrlRewriteGenerator extends \Magento\CatalogUrlRewrite\Model\ProductUrlRewriteGenerator
 {
-
     /**
      * Generate list of urls for global scope
      *
@@ -46,5 +41,4 @@ class ProductUrlRewriteGenerator extends \Magento\CatalogUrlRewrite\Model\Produc
         }
         return $urls;
     }
-
 }
